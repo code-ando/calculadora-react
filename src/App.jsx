@@ -4,6 +4,7 @@ import './App.css'
 import imagen from '../src/imagenes/calculadora.png'
 import Boton from './component/Boton'
 import Pantalla from './component/Pantalla'
+import BotonClear from './component/BotonClear'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -45,7 +46,9 @@ function App() {
         <Boton>.</Boton>
         <Boton>/</Boton>
         </div>
-        <div className='fila'></div>
+        <div className='fila'>
+          <BotonClear>Clear</BotonClear>
+        </div>
       </div>
     </div>
   )
