@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../hojas-estilos/BotonClear.css'
 
 const BotonClear = (props) => {
   return (
