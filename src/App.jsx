@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import imagen from '../src/imagenes/calculadora.png'
 import Boton from './component/Boton'
+import Pantalla from './component/Pantalla'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +18,9 @@ function App() {
         />
         
       </div>
+        
       <div className='contenedor-calculadora'>
+        <Pantalla/>
         <div className='fila'>
         <Boton>1</Boton>
         <Boton>2</Boton>
