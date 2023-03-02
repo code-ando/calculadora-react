@@ -16,7 +16,12 @@ function App() {
   }
 
   const calcularResultado = () => {
-    setInput(evaluate(input))
+    if (input) {
+      setInput(evaluate(input))
+    } else {
+      alert("por favor ingrese el valor para realizart la operacion")
+    
+    }
   }
 
   return (
